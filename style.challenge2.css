@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:lightpink;
+    color: white;
+
+}
+
+.Blu {
+    color: lightskyblue;
+
+
+}
