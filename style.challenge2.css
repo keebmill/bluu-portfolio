@@ -7,8 +7,10 @@
 .header {
     padding: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color:lightpink;
-    color: white;
+    background-color:rgb(5, 48, 89);
+    color: mediumvioletred;
+    
+
 
 }
 
@@ -16,4 +18,47 @@
     color: lightskyblue;
  
 
+}
+li{
+    display: inline-block;
+    text-orientation: sideways-right;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-right: 15px;
+}
+    
+.hero{
+    height: 200px; ;
+    width: 100%; ;
+    margin-top:0 ;
+    background-image: url(https://wallpapercave.com/wp/wp8138865.png);
+    background-position: center;
+    background-size: cover; 
+
+}
+body{
+    background-color: steelblue;
+}
+
+.container{
+    position: relative;
+    text-align: right;
+    color:lightblue;
+
+}
+
+.bottomleft{
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.topright{
+    text-align: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    
+    
 }
