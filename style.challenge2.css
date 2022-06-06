@@ -26,6 +26,11 @@ li{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-right: 15px;
 }
+
+a{
+    text-decoration: none;
+    color: mediumvioletred;
+}
     
 .hero{
     height: 200px; ;
@@ -61,4 +66,34 @@ body{
     font-weight: bold;
     
     
+}
+
+#aboutme{
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: mediumvioletred;
+    text-decoration: underline;
+    margin-top: 60px;
+    text-align: center;
+}
+p{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: mediumvioletred;
+   font-weight: bold;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-bottom: 20px;
+}
+article{
+    background-color: skyblue;
+    width: 55%;
+    margin-left: 20px;
+
+}
+.profile-image{
+
+}
+.profile-image:hover{
+
 }
