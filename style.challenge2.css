@@ -119,22 +119,14 @@ article{
     color:mediumvioletred;
     font-weight: bold;
     font-size:xx-large;
-    text-decoration:underline
-
+    text-decoration:underline;
 }
 
-aside{
-    background-color: skyblue;
-    margin-top: 200px;
-    margin-left: 60px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 10px;
-    width: auto;
-    text-align: center;
-    margin-right: 60px;
+
+
+
     
-}
+
 #contactme{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color:mediumvioletred;
@@ -144,7 +136,7 @@ aside{
     text-align: right;
     padding-right: 20px;
     margin-left: 60px;
-    margin-bottom: 300px;
+    margin-bottom:0;
     margin-right: 20px;
 
     
@@ -152,5 +144,33 @@ aside{
 main{
     background-color: skyblue;
     margin-top: 200px;
+    
 
+}
+
+.img1{
+    border: 8px solid mediumvioletred;
+    border-color: mediumvioletred;
+    background-color: mediumvioletred;
+}
+
+
+h2{
+    text-align: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    color: mediumvioletred;
+    text-decoration: underline;
+    margin-top: 0;
+
+}
+
+.img2{
+    border: 8px solid mediumvioletred;
+    border-color: mediumvioletred;
+    background-color: mediumvioletred;
+    border-image: auto;
+    height: 200px;
+    width: 400px;
+    
 }
