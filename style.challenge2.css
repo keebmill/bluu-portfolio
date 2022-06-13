@@ -48,8 +48,9 @@ li a{
     background-image: url(https://wallpapercave.com/wp/wp8138865.png);
     background-position: center;
     background-size: cover; 
-
 }
+   
+
 body{
     background-color: steelblue;
 }
@@ -130,76 +131,104 @@ article{
 
 
 }
-#mywork{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color:mediumvioletred;
-    font-weight: bold;
-    font-size:xx-large;
-    text-decoration:underline;
-    padding-left: 20px;
-    margin-left: 20px;
-   
 
-}
+   
 footer{
     text-align: center;
-}
-
-
-#contactme{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color:mediumvioletred;
-    font-weight: bold;
-    font-size:xx-large;
-    text-decoration:underline;
-   
-   
-    
-}
-#email{
     background-color: skyblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 100px;
 
+}
+#contactme{
+    font-size: x-large;
+    color: mediumvioletred;
+}
+
+#mail{
     
-
+    color:rgb(5, 48, 89);
+    font-size: larger;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 main{
     background-color: skyblue;
-    margin-top: 200px;
-
+    margin-top: 100px;
 }
+
 
 aside{
    
     margin-left: 20px;
     padding-left: 20px;
     background-color: skyblue;
-    
+
 }
-.img{
+.web1{
     border: 5px solid mediumvioletred;
     background-color: skyblue;
-    transition: 1s ease;
-    
-    
-    
+    height: 300px;
 }
-.img2{
+
+.web2{
     margin-left: 25%;
     border: 5px solid mediumvioletred;
-    transition: 1s ease;
-}
-    
 
-.img3{
+    height: 300px;
+}
+
+.web3{
     margin-left:600px;
     border: 5px solid mediumvioletred;
     margin-right: 20px;
-    transition: 1s ease;
+    height: 300px;
+   
 }
 
 h2{
     color: rgb(5, 48, 89);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     
-    
-   
+}
+
+h3{
+    color: rgb(5, 48, 89);
+    font-size: x-large;
+    margin-left: 25%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h4{
+    color: rgb(5, 48, 89);
+    font-size: x-large;
+    margin-left: 53%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.web1{
+    transition: 0.5s ease;
+}
+.web1:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transform:scale(1.3);
+    transform:scale(1.3);
+    transition:0.5s ease;
+}
+.web2 {
+    transition: .5s ease;
+}
+.web2:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transform:scale(1.3);
+    transform:scale(1.3);
+    transition: 0.5s ease;
+}
+.web3 {
+    transition:0.5s ease;
+}
+.web3:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transform:scale(1.3);
+    transform:scale(1.3);
+    transition: 0.5s ease;
 }
