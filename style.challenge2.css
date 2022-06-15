@@ -138,6 +138,7 @@ footer{
     background-color: skyblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-top: 100px;
+    margin-bottom: 20px;
 
 }
 #contactme{
@@ -152,6 +153,7 @@ footer{
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+    
 main{
     background-color: skyblue;
     margin-top: 100px;
@@ -186,10 +188,11 @@ aside{
    
 }
 
-h2{
+
+.react{
     color: rgb(5, 48, 89);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+    text-align: left;
+    font-size: x-large;
 }
 
 h3{
@@ -233,13 +236,6 @@ h4{
     transition: 0.5s ease;
 }
 
-.img1{
-    border: 8px solid mediumvioletred;
-    border-color: mediumvioletred;
-    background-color: mediumvioletred;
-}
-
-
 h2{
     text-align: right;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -248,14 +244,4 @@ h2{
     text-decoration: underline;
     margin-top: 0;
 
-}
-
-.img2{
-    border: 8px solid mediumvioletred;
-    border-color: mediumvioletred;
-    background-color: mediumvioletred;
-    border-image: auto;
-    height: 200px;
-    width: 400px;
-    
 }
