@@ -76,6 +76,10 @@ body{
     font-size: larger;
     font-weight: bold;
     text-decoration: 0;
+    display: inline-flex;
+    text-align: right; 
+    padding-left: 700px;
+
     
     
 }
