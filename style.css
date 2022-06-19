@@ -1,0 +1,247 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    flex-wrap: wrap;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:rgb(5, 48, 89);
+    color: mediumvioletred;
+    display: flex;
+    
+   
+
+
+}
+
+.Blu {
+    color:skyblue;
+ 
+
+}
+li{
+
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-right: 15px;
+    margin-left: 20px;
+    
+}
+
+li a{
+    text-decoration: none;
+    color: mediumvioletred;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-right: 15px;
+}
+    
+.hero{
+    flex-wrap: wrap;
+    height: 200px; ;
+    width: 100%; ;
+    margin-top:0 ;
+    background-image: url(https://wallpapercave.com/wp/wp8138865.png);
+    background-position: center;
+    background-size: cover; 
+}
+   
+
+body{
+    background-color: steelblue;
+}
+
+.container{
+    position: relative;
+    text-align: right;
+    color:skyblue;
+
+}
+
+.bottomleft{
+
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.topright{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    text-decoration: 0;
+    
+    
+}
+
+#aboutme{
+
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: mediumvioletred;
+    text-decoration: underline;
+    margin-top: 60px;
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+p{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: mediumvioletred;
+   font-weight: bold;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-bottom: 20px;
+}
+article{
+    background-color: skyblue;
+    width: 55%;
+    margin-left: 20px;
+
+}
+.profile-image{
+    width: 250px;
+    background-size: cover;
+    float: right;
+    margin-top: 40px;
+    margin-right: 120px;
+    filter:grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 1s ease;
+   
+   
+
+
+}
+.profile-image:hover{
+   filter: grayscale(0%);
+   filter:gray;
+   -webkit-filter: grayscale(0%);
+   filter: none;
+   transition: 1s ease;
+   border: 8px solid mediumvioletred;
+
+
+
+}
+
+   
+footer{
+    text-align: center;
+    background-color: skyblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 100px;
+    margin-bottom: 20px;
+
+}
+#contactme{
+    font-size: x-large;
+    color: mediumvioletred;
+}
+
+#mail{
+    
+    color:rgb(5, 48, 89);
+    font-size: larger;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+    
+main{
+    background-color: skyblue;
+    margin-top: 100px;
+}
+
+
+aside{
+   
+    margin-left: 20px;
+    padding-left: 20px;
+    background-color: skyblue;
+
+}
+.web1{
+    border: 5px solid mediumvioletred;
+    background-color: skyblue;
+    height: 300px;
+}
+
+.web2{
+    margin-left: 25%;
+    border: 5px solid mediumvioletred;
+
+    height: 300px;
+}
+
+.web3{
+    margin-left:600px;
+    border: 5px solid mediumvioletred;
+    margin-right: 20px;
+    height: 300px;
+   
+}
+
+
+.react{
+    color: rgb(5, 48, 89);
+    text-align: left;
+    font-size: x-large;
+}
+
+h3{
+    color: rgb(5, 48, 89);
+    font-size: x-large;
+    margin-left: 25%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h4{
+    color: rgb(5, 48, 89);
+    font-size: x-large;
+    margin-left: 53%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.web1{
+    transition: 0.5s ease;
+}
+.web1:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transform:scale(1.3);
+    transform:scale(1.3);
+    transition:0.5s ease;
+}
+.web2 {
+    transition: .5s ease;
+}
+.web2:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transform:scale(1.3);
+    transform:scale(1.3);
+    transition: 0.5s ease;
+}
+.web3 {
+    transition:0.5s ease;
+}
+.web3:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transform:scale(1.3);
+    transform:scale(1.3);
+    transition: 0.5s ease;
+}
+
+h2{
+    text-align: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    color: mediumvioletred;
+    text-decoration: underline;
+    margin-top: 0;
+
+}
